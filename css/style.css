@@ -1,0 +1,597 @@
+body{
+	padding:0px;
+	margin: 0px;
+	background-color:#80808038;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+.entete{
+	display: flex;
+	border:;
+	height:49px;
+	background-color: white;
+	
+}
+
+
+nav{
+	display:flex;
+
+}
+
+
+nav a{
+	margin-left: 20px;
+	color: black;
+	text-transform:capitalize;
+	line-height:40px;
+	width: 100%;
+	height:100px;
+	
+
+}
+nav a:hover {
+	display: block;
+	background-color:#8080805c;
+	height:50px;
+	width: 150px;
+	margin:0px;
+	text-align: center;
+}
+
+
+
+ a{
+ 	text-decoration:none;
+
+ }
+ #reserve {
+ 	position:absolute;
+ 	top:0px;
+ 	right:10px;
+ }
+
+ .logo{
+ 	background-color: red;
+ 	padding:10px 20px;
+ 	color: white;
+ }
+ .logo:hover{
+ 	background-color:#8080805c;
+ 	color: black;
+
+
+ }
+
+
+.logo i{
+	margin-right:20px;
+}
+
+
+  .image_fond1{
+  	height:600px;
+  	background-image: url(../images/hotel.jpg);
+  	background-size:cover;
+  }
+
+
+
+.form1{
+	position:absolute;
+	top:35%;
+	padding-bottom:5px;
+	margin-left:30px;
+	background-color: white;
+}
+
+.elts_form1 > div{
+	margin-top:10px;
+	margin-right:20px;
+}
+
+.elts_form1 input{
+    
+	height:30px;
+	background-color:#8080800d;
+	border: 1px solid gray;
+	width: 210px;
+
+}
+
+.h3{
+	
+	border: 1px solid red;
+	background-color:red;
+	color: white;
+
+}
+
+
+
+.h3 i{
+	margin-left:10px;
+}
+
+
+
+.elts_form1{
+	display: flex;
+	justify-content:space-between;
+	padding: 10px 20px;
+}
+
+
+.btn{
+	margin-left:20px;
+	margin-top:10px;
+}
+
+
+.btn button{
+	padding:20px 10px;
+	color: white;
+	font-weight:bold;
+	background-color: black;
+}
+
+
+.btn button:hover{
+	background-color: gray;
+	border: none;
+}
+
+
+
+ #pieces {
+
+ 	padding:10px 15px;
+ }
+
+
+ #pieces p{
+    font-size:1.3em;
+ }
+
+
+ .form2{
+ 	display:flex;
+ 	justify-content:space-between;
+ }
+
+ .form2 input{
+ 	width:245px;
+ 	height: 30px;
+ 	margin-left:0px;
+ }
+
+
+ .recherche input{
+ 	background-color: black;
+ 	height:35px;
+ 	border:none;
+ 	text-align: center;
+ 	color:white;
+ }
+
+.recherche input:hover{
+  background-color:gray;
+  
+}
+
+ .contenair_chambre{
+ display:flex;
+ justify-content: space-between;
+ padding: 10px 20px;
+ }
+
+ .contenair_chambre > div{
+ 	margin-right:0px;
+ 
+ 	width:33%;
+
+ }
+
+ .chambre1{
+ 	background-image: url(../images/room_single.jpg);
+ 	background-size:cover;
+ 	height: 320px;
+ }
+
+ .apartir{
+ 	color:gray;
+ 	font-size:1.3em;
+ }
+
+
+ .span{
+ 	color:black;
+ 	margin-top: 10px;
+ }
+
+ .contenair_chambre input {
+ 	border: none;
+ 	width:98%;
+ 	height:50px;
+ 	background-color:black;
+ 	color:white;
+ 	margin-bottom:20px;
+ 	margin-top:10px;
+ 	font-size:1.3em;
+
+ }
+
+ .contenair_chambre input:hover{
+ 	background-color:#8080805c;
+ 	color: black;
+
+ }
+
+
+
+ .chambre2{
+
+ 	background-image: url(../images/room_double.jpg);
+ 	background-size:cover;
+ 	height:320px;
+
+ }
+
+ .chambre3{
+ 	background-image: url(../images/room_deluxe.jpg);
+ 	background-size:cover;
+ 	height: 320px;
+ }
+
+ .block_chambre{
+ 	background-color: white;
+ 
+ }
+
+ .elts-bloc-chambre{
+ 	padding-left: 20px;
+
+ }
+
+ .bloc_i{
+ 	margin-top:10px;
+ }
+ 
+
+
+ .map{
+     display:flex;
+     padding:10px 10px;
+ }
+
+
+ .map > div{
+ 
+ 	margin-right:15px;
+
+ }
+
+ .bloc_map{
+ 	 width:60%;
+ 	 background-image:url(../images/map.jpg);
+ 	 background-size:cover;
+ 	 height:600px;
+ }
+
+ #bloc_text{
+ 	margin-left: 10px;
+ 	width:40%;
+ }
+
+ #bloc_text p{
+ 	font-size: 1.2em;
+ 	line-height:32px;
+
+
+ }
+
+ #bloc_text h2{
+ 	text-transform: capitalize;
+ }
+
+ 
+
+ .bloc_adress{
+ 	display: flex;
+ 	justify-content: space-around;
+ 	margin-top: 50px;
+ }
+
+ .bloc_adress > div{
+ 	font-size: 1.3em;
+
+ }
+
+ .bloc_adress i{
+ 	color: red;
+ }
+
+
+
+ .div_rouge{
+ 	display: flex;
+ 	background-color: red;
+ 	height:100px;
+ 	padding:10px 20px;
+ 	margin:30px 10px;
+ 	align-items: center;
+
+ }
+
+ .div_rouge i{
+ 	background-color:orange;
+ 	padding:6px 10px;
+ 	color:white;
+ 	margin-right:10px;
+ }
+
+ .div_rouge p {
+ 	text-align: center;
+ 	font-size: 1.3em;
+ 	color: white;
+
+ }
+
+
+ .titre_hotel{
+ 	margin-left:20px;
+ }
+
+ .titre_hotel p{
+ 	font-size: 1.5em;
+ }
+
+ .container_hotel{
+ 	display: flex;
+ 	padding: 20px 20px;
+
+ }
+
+
+ .container_hotel > div{
+ 	width:50%;
+
+
+
+ }
+
+ .hotel1{
+ 	background-image:url(../images/cinqueterre.jpg);
+ 	background-size:cover;
+ 	height:510px;
+ }
+
+ .cinque{
+   position:relative;
+   left:20px;
+   top:85%;
+   color: white;
+   
+ }
+
+ .hotel2_3{
+ 	display:flex;
+
+
+ }
+
+.hotel2_3 > div{
+	width: 50%;
+	margin-left:10px;
+}
+
+.hotel2{
+	background-image:url(../images/newyork2.jpg);
+	background-size:cover;
+	height:250px;
+
+}
+.new{
+	position: relative;
+	left:20px;
+	top:80%;
+	color: white;
+}
+
+.hotel3{
+	background-image:url(../images/sanfran.jpg);
+	background-size:cover;
+	height:250px;
+
+}
+
+.san{
+	position: relative;
+	left:20px;
+	top:80%;
+	color: white;
+}
+
+.hotel4_5{
+	display: flex;
+
+}
+
+
+.hotel4_5 > div{
+    width: 50%;
+	margin-left:10px;
+	margin-top: 10px;
+}
+
+.hotel4{
+	background-image:url(../images/pisa.jpg);
+	background-size:cover;
+	height:250px;
+
+}
+
+.pise{
+	position: relative;
+	left:20px;
+	top:80%;
+	color: white;
+}
+
+
+.hotel5{
+	background-image:url(../images/paris.jpg);
+	background-size:cover;
+	height:250px;
+
+}
+
+.paris{
+	position: relative;
+	left:20px;
+	top:85%;
+	color: white;
+
+}
+
+
+.form3{
+	margin-top:30px;
+	background-color:black;
+	padding: 20px 20px;
+	color:white;
+
+}
+
+
+ 
+
+ .mail input{
+ 	border:none;
+	width: 100%;
+	height:50px;
+}
+
+
+.abonner{
+	margin-top:20px;
+
+}
+
+
+.abonner input{
+	background-color: red;
+	color: white;
+	padding:20px 30px;
+	border: none;
+
+}
+
+.abonner input:hover{
+	background-color:white;
+	color:gray;
+}
+
+.contact {
+	padding:20px 20px;
+}
+
+.contact > div{
+	font-size:1.3em;
+	margin-top: 10px;
+}
+
+
+
+.contact i {
+	color:red;
+}
+
+.dernier_form{
+	padding-left:20px;
+}
+
+.dernier_form  input{
+
+	width:99%;
+	height:50px;
+	margin-top: 20px;
+}
+
+
+
+.dernier_button{
+	margin-top: 10px;
+}
+
+.dernier_button button{
+	padding:15px 20px;
+	background-color:black;
+	color: white;
+	border:none;
+}
+
+.dernier_button button:hover{
+	background-color: #8080805c;
+	color:black;
+}
+
+
+
+
+
+
+
+.icone{
+	margin-top:10px;
+	border:1px solid black;
+	height:180px;
+	background-color:black;
+
+}
+
+
+
+.icone h2 {
+	color: white;
+	text-align:center;
+
+}
+
+/*animation*/
+
+.form3:hover{
+
+	background-color:black;
+	animation-name:animation;
+
+	animation-duration:2s;
+	animation-iteration-count: infinite;
+
+	}
+
+@keyframes animation{
+	form {background-color:black;}
+     
+     to {background-color:#80808038;}
+     
+	}
+
+/*animation*/
+
+
+
+
+
+     
+		
+
+
+
+
+
+
+
+
+
+
+
