@@ -1,0 +1,68 @@
+@media only screen and (max-width:  720px){
+	.logo {
+	    background-color: yellow;
+	    padding: 10px 20px;
+	    color: black;
+	}
+
+	.form1 {
+	    position: absolute;
+	    top: 20%;
+	    padding-bottom: 5px;
+	    margin-left: 30px;
+	    background-color: white;
+	    width: 82%;
+	}
+
+	.elts_form1 {
+	    display: flex;
+	    justify-content: center;
+	    padding: 10px 20px;
+	    flex-direction: column;
+	}
+
+	.form2 {
+	    display: flex;
+	    justify-content: space-between;
+	    flex-wrap: wrap;
+	}
+
+	.contenair_chambre {
+	    display: flex;
+	    justify-content: space-between;
+	    padding: 10px 20px;
+	    flex-wrap: wrap;
+	}
+
+	.contenair_chambre > div {
+	    margin-right: 0px;
+	    width: 100%;
+	    margin-bottom: 20px;
+	}
+
+	.bloc_adress {
+	    display: flex;
+	    justify-content: space-around;
+	    margin-top: 50px;
+	    flex-wrap: wrap;
+	}
+
+	.container_hotel {
+	    display: flex;
+	    padding: 0px;
+	    flex-wrap: wrap;
+	}
+
+		.container_hotel > div {
+	    width: 100%;
+	    margin-bottom: 20px;
+	}
+
+	.dernier_form {
+	    padding: 20px;
+	}
+
+	html, body{
+		overflow-x: hidden;
+	}
+}
